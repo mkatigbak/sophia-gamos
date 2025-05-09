@@ -1,0 +1,207 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set core body defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    color: var(--color-brand-black);
+    height: 100%;
+    font-family: "Literata", sans-serif;
+    line-height: 1.5;
+    margin-top: 0 !important;
+}
+
+/* Remove default list styles */
+ol,
+ul {
+    list-style: none;
+}
+
+/* Remove default link styles */
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    background-color: none !important;
+    display: inline-block;
+}
+
+a:focus,
+a:hover,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+
+/* Reset headings and text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    font-weight: inherit;
+}
+
+/* Reset buttons */
+button,
+input,
+select,
+textarea {
+    font: inherit;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+/* Media elements */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 0.5rem;
+}
+
+small {
+    display: inline-block;
+}
+
+/* END OF CSS RESET */
+
+/* Variables */
+:root {
+    --color-primary: #F9E1E1;
+    --color-secondary: #774949;
+    --text-dark: #544242;
+    --color-green: #6A7F2E;
+}
+
+/* Global */
+.flex-row {
+    display: flex;
+    align-items: center;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+/* Navigation */
+nav {
+    justify-content: space-between;
+    background-color: var(--color-secondary);
+    padding: 20px 40px;
+    color: var(--color-primary);
+}
+
+nav > a {
+    font-family: "Send Flowers";
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+nav div {
+    gap: 36px;
+}
+
+nav div a {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+header section {
+    background-color: var(--color-primary);
+    padding: 118px 76px 223px;
+    gap: 23px;
+    color: var(--text-dark);
+}
+
+header section img {
+    padding: 15px;
+    background-color: var(--color-secondary);
+    border-radius: 100%;
+}
+
+header h1 {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+}
+
+header span {
+    color: var(--color-green);
+}
+
+header p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+/* Main */
+main {
+    background-color: var(--color-secondary);
+    align-items: center;
+    padding: 40px 37px 65px;
+}
+
+main h1 {
+    color: var(--color-primary);
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+main section {
+    background-color: var(--color-primary);
+    padding: 40px 32px 36px;
+    border-radius: 16px;
+}
+
+/* Section 1 */
+.athabasca-university img {
+    background-color: var(--color-green);
+    padding: 14px 19px;
+    border-radius: 16px;
+}
