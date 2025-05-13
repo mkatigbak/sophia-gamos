@@ -201,9 +201,10 @@ main section {
     background-color: var(--color-primary);
     padding: 40px 32px 36px;
     border-radius: 16px;
+    margin-bottom: 52px;
 }
 
-/* Section 1 */
+/* Projects */
 .athabasca-university h2 {
     font-weight: 700;
     font-size: 32px;
@@ -275,4 +276,46 @@ main section {
 .athabasca-university div.pos-rel img:hover + h3,
 .athabasca-university div.pos-rel h3:hover {
     opacity: 1;
+}
+
+/* Other projects */
+.other-projects > h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--text-dark);
+    margin-bottom: 20px;
+}
+
+.other-projects > div {
+    padding: 45px;
+    background-image: url("../images/other-projects-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.other-projects > div h3 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.other-projects > div img {
+    cursor: pointer;
+}
+
+.eyes-opened,
+.other-projects .image-container:hover .eyes-closed {
+    display: none;
+}
+
+.other-projects .image-container:hover .eyes-opened {
+    display: block;
 }
