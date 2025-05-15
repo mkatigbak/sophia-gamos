@@ -288,6 +288,10 @@ main section {
 }
 
 /* Other projects */
+.other-projects {
+    height: 630px;
+}
+
 .other-projects > h3 {
     font-weight: 700;
     font-size: 32px;
@@ -305,6 +309,7 @@ main section {
     background-size: cover;
     align-items: center;
     border-radius: 16px;
+    height: 472px;
 }
 
 .other-projects > div h3 {
@@ -317,6 +322,7 @@ main section {
 }
 
 .other-projects > div img {
+    padding-top: 17px;
     cursor: pointer;
 }
 
