@@ -329,15 +329,43 @@ main section {
 
 /* Footer */
 footer {
-    background-color: var(--color-green);
-    align-items: center;
-    padding: 30px;
     color: #fff;
+    justify-content: space-between;
+    gap: 30px;
+    padding-left: 80px;
+    padding-bottom: 65px;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+footer div {
+    padding: 20px 50px;
+    background-color: var(--color-green);
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    gap: 58px;
 }
 
 footer h3 {
     font-weight: 700;
     font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+footer img {
+    margin-bottom: 20px;
+}
+
+footer span {
+    font-weight: 400;
+    font-size: 24px;
     line-height: 100%;
     letter-spacing: 0%;
     text-align: center;
