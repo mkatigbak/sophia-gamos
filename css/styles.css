@@ -172,7 +172,7 @@ header h1 {
     font-size: 64px;
     line-height: 100%;
     letter-spacing: 0%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 header span {
@@ -184,6 +184,7 @@ header p {
     font-size: 24px;
     line-height: 100%;
     letter-spacing: 0%;
+    text-indent: 50px;
 }
 
 /* Main */
