@@ -347,7 +347,7 @@ footer p {
 
 footer div {
     padding: 20px 50px;
-    background-color: var(--color-green);
+    background-color: #8DB028;
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
     gap: 58px;
