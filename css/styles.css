@@ -367,8 +367,8 @@ footer h3 {
     text-align: center;
 }
 
-footer img {
-    margin-bottom: 20px;
+footer a {
+    gap: 20px;
 }
 
 footer span {
