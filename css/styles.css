@@ -407,6 +407,7 @@ footer span {
     background-color: var(--color-green);
     border-radius: 16px;
     padding: 25px 20px;
+    max-width: 1129px;
 }
 
 .modal-content {
@@ -434,4 +435,12 @@ footer span {
 
 .modal-content div.flex-row img:last-of-type {
     cursor: pointer;
+}
+
+.modal-content p {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    color: var(--text-dark);
 }
