@@ -420,9 +420,11 @@ footer span {
     cursor: pointer;
     padding: 10px 20px;
     margin: 0 auto;
-    top: 20px;
-    right: 20px;
-    background-color: var(--color-primary);
+    bottom: 0;
+    left: 50%;
+    translate: -50%;
+    background-color: var(--color-green);
+    color: #fff;
     border-radius: 16px;
 }
 
