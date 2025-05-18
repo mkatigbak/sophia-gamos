@@ -125,6 +125,18 @@ small {
     position: relative;
 }
 
+.pos-abs {
+    position: absolute;
+}
+
+.pos-fixed {
+    position: fixed;
+}
+
+.hidden {
+    display: none;
+}
+
 /* Header */
 /* Navigation */
 nav {
@@ -243,7 +255,7 @@ main section {
     color: var(--color-green);
 }
 
-.athabasca-university img {
+.athabasca-university > img {
     background-color: var(--color-green);
     border-radius: 16px;
     width: 100%;
@@ -278,7 +290,7 @@ main section {
     text-wrap: nowrap;
 }
 
-.athabasca-university div.pos-rel:hover img {
+.athabasca-university div.pos-rel:hover > img {
     filter: brightness(40%);
 }
 
@@ -377,4 +389,49 @@ footer span {
     line-height: 100%;
     letter-spacing: 0%;
     text-align: center;
+}
+
+/* Modal Styles */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 0%, 0.7);
+    z-index: 1000;
+    min-height: 100vh;
+    min-width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content-wrapper {
+    background-color: var(--color-green);
+    border-radius: 16px;
+    padding: 25px 20px;
+}
+
+.modal-content {
+    padding: 50px 22px;
+    border-radius: 16px;
+    background-color: var(--color-primary);
+}
+
+.close-button {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0 auto;
+    top: 20px;
+    right: 20px;
+    background-color: var(--color-primary);
+    border-radius: 16px;
+}
+
+.modal-content div.flex-row {
+    gap: 36px;
+}
+
+.modal-content div.flex-row img:last-of-type {
+    cursor: pointer;
 }
