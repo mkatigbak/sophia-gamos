@@ -255,7 +255,7 @@ main section {
     color: var(--color-green);
 }
 
-.athabasca-university > img {
+.athabasca-university div.pos-rel > img {
     background-color: var(--color-green);
     border-radius: 16px;
     width: 100%;
